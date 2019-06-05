@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/submit/submit",
+    "pages/contact/contact"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "简介"
+      },
+      {
+        "pagePath": "pages/submit/submit",
+        "text": "报名"
+      },
+      {
+        "pagePath": "pages/contact/contact",
+        "text": "联系方式"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

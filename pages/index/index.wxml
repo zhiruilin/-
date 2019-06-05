@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
+<view>
+<text>最新通知\n</text>
+<text>最新通知1\n</text>
+<text>最新通知2\n</text>
+<text>最新通知3\n</text>
+<text>最新通知4\n</text>
+</view>
+

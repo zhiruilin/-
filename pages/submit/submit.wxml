@@ -1,0 +1,18 @@
+<!--pages/submit/submit.wxml-->
+<text>报名登记表\n</text>
+<text>姓名\n</text>
+<view class="section">
+  <input password type="text" />
+</view>
+<text>就读学校\n</text>
+<view class="section">
+  <input password type="text" />
+</view>
+<text>联系手机\n</text>
+<view class="section">
+  <input password type="number" />
+</view>
+<button type='primary' bindtap='submit'>提交</button>
+
+
+
