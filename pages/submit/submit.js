@@ -5,8 +5,35 @@ Page({
    * 页面的初始数据
    */
   data: {
+    username:'',
+    userphone:'',
+    userschool:'',
 
   },
+
+  name: function (e) {
+    this.setData({
+      username: e.detail.value
+    })
+  },
+  phone: function (e) {
+    this.setData({
+      userphone: e.detail.value
+    })
+  },
+  school: function (e) {
+    this.setData({
+      userschool: e.detail.value
+    })
+  },
+
+  submit:function(){
+
+    console.log("用户名：" + this.data.username + " 密码：" + this.data.userschool+" 电话： "+this.data.userphone);
+
+  },
+
+
 
   /**
    * 生命周期函数--监听页面加载

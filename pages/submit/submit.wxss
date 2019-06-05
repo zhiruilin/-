@@ -1,1 +1,8 @@
 /* pages/submit/submit.wxss */
+.inputView{
+    border:  2px solid red;
+    border-radius: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
